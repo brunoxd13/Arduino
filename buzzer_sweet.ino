@@ -1,5 +1,5 @@
 //Constante que representa o pino onde o positivo do buzzer será ligado.
-const int buzzer = 3;
+const int buzzer = 7;
 
 //Método setup, executado uma vez ao ligar o Arduino.
 void setup() {
@@ -23,7 +23,7 @@ void loop() {
   
     tone(buzzer, melodiaGuns[nota]*4,200);
   
-    delay(260);
+    delay(100);
   
     noTone(buzzer);
   
